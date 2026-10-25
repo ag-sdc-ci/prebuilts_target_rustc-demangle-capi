@@ -1,0 +1,7 @@
+shadow prebuilt repo: rustc-demangle-capi (target)
+  upstream: external/rust/crates/rustc-demangle-capi (module librustc_demangle_static, rust_ffi_static)
+  api-level: 34 (branch 34-20261025)
+  blobs: org.blisslabs.ag.ext.rustc.demangle.capi.apex
+  dev-src: extracted dev payload (lib/librustc_demangle_static.a, include/rustc_demangle.h) + hand-aligned root Android.bp (gen_extractive_bp.py)
+  source: android-14.0.0_r67 (capi 67079d7026d11763b042c1e03f99d34acb9e1542, dep rustc-demangle e6936bf29d1667c96900955f902fd398ae359e5e); built with AOSP prebuilt rustc 1.75.0, -C panic=abort -C relocation-model=pic, staticlib crate-type
+  date: 2026-10-25
